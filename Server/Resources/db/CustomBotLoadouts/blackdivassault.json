@@ -116,32 +116,32 @@
         "689479eb30cc5ba7be00f5ff": 3
       },
       "Headwear": {
-        "5e00c1ad86f774747333222c": 1, //exfil black
-        "5e01ef6886f77445f643baa4": 1, //exfil tan
-        "69c26722bf4ff19f50057643": 1, //exfil camo (content backport) not sure about this one
-        "5e4bfc1586f774264f7582d3": 1, //TC-800
-        "5ea17ca01412a1425304d1c0": 1, //Bastion
-        "65709d2d21b9f815e208ff95": 1, //neosteel black
-        "6a83392e992762b7bf08ffb8": 100, //novasteel olive (content backport)
-        "69cd423343c6b278a2076cca": 1, //airframe black (content backport)
-        "5c17a7ed2e2216152142459c": 1, //airframe
-        "69cbfe34c293038df7002963": 1, //airframe od green (content backport)
-        "69cbfe44897389c1870b2337": 1, //airframe tan (content backport)
-        "69cbfe1f6dbaa9badb0c6b13": 1, //airframe mesh green (content backport)
-        "6759655674aa5e0825040d62": 1, //flux
+        "5e00c1ad86f774747333222c": 10, //exfil black
+        "5e01ef6886f77445f643baa4": 10, //exfil tan
+        "69c26722bf4ff19f50057643": 10, //exfil camo (content backport) not sure about this one
+        "5e4bfc1586f774264f7582d3": 10, //TC-800
+        "5ea17ca01412a1425304d1c0": 10, //Bastion
+        "65709d2d21b9f815e208ff95": 10, //neosteel black
+        "6a83392e992762b7bf08ffb8": 10, //novasteel olive (content backport)
+        "69cd423343c6b278a2076cca": 10, //airframe black (content backport)
+        "5c17a7ed2e2216152142459c": 10, //airframe
+        "69cbfe34c293038df7002963": 10, //airframe od green (content backport)
+        "69cbfe44897389c1870b2337": 10, //airframe tan (content backport)
+        "69cbfe1f6dbaa9badb0c6b13": 10, //airframe mesh green (content backport)
+        "6759655674aa5e0825040d62": 10, //flux
         ///"5b40e1525acfc4771e1c6611": 1, ulach? If so, maybe include ACHHC and/or MSA ACHs ?
-        "66b5f65ca7f72d197e70bcd6": 1, //Bastion (Armor Black)
-        "66b5f661af44ca0014063c05": 1, //Bastion (OD Green)
-        "66b5f666cad6f002ab7214c2": 1, //Bastion (MultiCam)
-        "69ce70a321c1fc42cd01affa": 1, //Titan od green (content backport)
-        "69ce70df606696c00301a760": 1, //Titan multicam (content backport)
-        "67597d241d5a44f2f605df06": 1, //MTEK strike multicam
-        "67597ceea35600b4c10cea86": 1, //MTEK strike
-        "5a154d5cfcdbcb001a3b00da": 1, //fast mt black
-        "5ac8d6885acfc400180ae7b0": 1, //fast mt tan
-        "5f60b34a41e30a4ab12a6947": 1, //Caiman grey
-        "68a9b3ca0a9c4f9398032c46": 1, //Caiman multicam (content backport) there is also a mutualist but...meh
-        "693be003582cc8870b090b41": 1, //Caiman alpine (content backport)
+        "66b5f65ca7f72d197e70bcd6": 10, //Bastion (Armor Black)
+        "66b5f661af44ca0014063c05": 10, //Bastion (OD Green)
+        "66b5f666cad6f002ab7214c2": 10, //Bastion (MultiCam)
+        "69ce70a321c1fc42cd01affa": 10, //Titan od green (content backport)
+        "69ce70df606696c00301a760": 10, //Titan multicam (content backport)
+        "67597d241d5a44f2f605df06": 10, //MTEK strike multicam
+        "67597ceea35600b4c10cea86": 10, //MTEK strike
+        "5a154d5cfcdbcb001a3b00da": 10, //fast mt black
+        "5ac8d6885acfc400180ae7b0": 10, //fast mt tan
+        "5f60b34a41e30a4ab12a6947": 10, //Caiman grey
+        "68a9b3ca0a9c4f9398032c46": 10, //Caiman multicam (content backport) there is also a mutualist but...meh
+        "693be003582cc8870b090b41": 10, //Caiman alpine (content backport)
         "5b4329f05acfc47a86086aa1": 1,  //Ronin respirator (meh, I know)
         "6a84624507f6c3032e00c65d": 1,  //Ronin ballistic helmet olive (content backport) (meh, x2)
         "66bdc28a0b603c26902b2011": 1,  //Ronin ballistic helmet black (content backport) (meh, x3)
