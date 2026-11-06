@@ -41,6 +41,25 @@
       "mod_pistolgrip_001": 100,
       "mod_muzzle_000": 100,
       "mod_muzzle_001": 100
+    },
+    "equipmentMods": {
+      "mod_nvg": 100,
+      "Helmet_top": 100,
+      "Helmet_back": 100,
+      "Helmet_ears": 100,
+      "Front_plate": 100,
+      "Back_plate": 100,
+      "Soft_armor_front": 100,
+      "Soft_armor_back": 100,
+      "mod_equipment_000": 50,
+      "mod_equipment_001": 50,
+      "mod_equipment_002": 50,
+      "helmet_top": 100,
+      "helmet_back": 100,
+      "helmet_jaw": 100,
+      "helmet_eyes": 100,
+      "Soft_armor_left": 100,
+      "soft_armor_right": 100
     }
   },
   "inventory": {
@@ -97,37 +116,43 @@
         "689479eb30cc5ba7be00f5ff": 3
       },
       "Headwear": {
-        "5e00c1ad86f774747333222c": 10, //exfil black
-        "5e01ef6886f77445f643baa4": 10, //exfil tan
-        "69c26722bf4ff19f50057643": 10, //exfil camo (content backport) not sure about this one
-        "5e4bfc1586f774264f7582d3": 10, //TC-800
-        "5ea17ca01412a1425304d1c0": 10, //Bastion
-        "65709d2d21b9f815e208ff95": 10, //neosteel black
-        "69cd423343c6b278a2076cca": 10, //airframe black (content backport)
-        "5c17a7ed2e2216152142459c": 10, //airframe
-        "69cbfe34c293038df7002963": 10, //airframe od green (content backport)
-        "69cbfe44897389c1870b2337": 10, //airframe tan (content backport)
-        "69cbfe1f6dbaa9badb0c6b13": 10, //airframe mesh green (content backport)
-        "6759655674aa5e0825040d62": 10, //flux
+        "5e00c1ad86f774747333222c": 1, //exfil black
+        "5e01ef6886f77445f643baa4": 1, //exfil tan
+        "69c26722bf4ff19f50057643": 1, //exfil camo (content backport) not sure about this one
+        "5e4bfc1586f774264f7582d3": 1, //TC-800
+        "5ea17ca01412a1425304d1c0": 1, //Bastion
+        "65709d2d21b9f815e208ff95": 1, //neosteel black
+        "6a83392e992762b7bf08ffb8": 100, //novasteel olive (content backport)
+        "69cd423343c6b278a2076cca": 1, //airframe black (content backport)
+        "5c17a7ed2e2216152142459c": 1, //airframe
+        "69cbfe34c293038df7002963": 1, //airframe od green (content backport)
+        "69cbfe44897389c1870b2337": 1, //airframe tan (content backport)
+        "69cbfe1f6dbaa9badb0c6b13": 1, //airframe mesh green (content backport)
+        "6759655674aa5e0825040d62": 1, //flux
         ///"5b40e1525acfc4771e1c6611": 1, ulach? If so, maybe include ACHHC and/or MSA ACHs ?
-        "66b5f65ca7f72d197e70bcd6": 10, //Bastion (Armor Black)
-        "66b5f661af44ca0014063c05": 10, //Bastion (OD Green)
-        "66b5f666cad6f002ab7214c2": 10, //Bastion (MultiCam)
-        "69ce70a321c1fc42cd01affa": 10, //Titan od green (content backport)
-        "69ce70df606696c00301a760": 10, //Titan multicam (content backport)
-        "67597d241d5a44f2f605df06": 10, //MTEK strike multicam
-        "67597ceea35600b4c10cea86": 10, //MTEK strike
-        "5a154d5cfcdbcb001a3b00da": 10, //fast mt black
-        "5ac8d6885acfc400180ae7b0": 10, //fast mt tan
-        "5f60b34a41e30a4ab12a6947": 10, //Caiman grey
-        "68a9b3ca0a9c4f9398032c46": 10, //Caiman multicam (content backport) there is also a mutualist but...meh
-        "5b4329f05acfc47a86086aa1": 1   //Ronin respirator (meh, I know)
+        "66b5f65ca7f72d197e70bcd6": 1, //Bastion (Armor Black)
+        "66b5f661af44ca0014063c05": 1, //Bastion (OD Green)
+        "66b5f666cad6f002ab7214c2": 1, //Bastion (MultiCam)
+        "69ce70a321c1fc42cd01affa": 1, //Titan od green (content backport)
+        "69ce70df606696c00301a760": 1, //Titan multicam (content backport)
+        "67597d241d5a44f2f605df06": 1, //MTEK strike multicam
+        "67597ceea35600b4c10cea86": 1, //MTEK strike
+        "5a154d5cfcdbcb001a3b00da": 1, //fast mt black
+        "5ac8d6885acfc400180ae7b0": 1, //fast mt tan
+        "5f60b34a41e30a4ab12a6947": 1, //Caiman grey
+        "68a9b3ca0a9c4f9398032c46": 1, //Caiman multicam (content backport) there is also a mutualist but...meh
+        "693be003582cc8870b090b41": 1, //Caiman alpine (content backport)
+        "5b4329f05acfc47a86086aa1": 1,  //Ronin respirator (meh, I know)
+        "6a84624507f6c3032e00c65d": 1,  //Ronin ballistic helmet olive (content backport) (meh, x2)
+        "66bdc28a0b603c26902b2011": 1,  //Ronin ballistic helmet black (content backport) (meh, x3)
+        "6a84620eb9a884488e00094c": 1   //Ronin ballistic helmet raptor (content backport) (meh, x4)
       },
       "FaceCover": {
-        "689b880fff8b4adc420f5b56": 2,
-        "689b404db49f27df1c0873f6": 2,
-        "5b432f3d5acfc4704b4a1dfb": 1,
-        "5ab8f39486f7745cd93a1cca": 1
+        "689b880fff8b4adc420f5b56": 3,
+        "689b404db49f27df1c0873f6": 3,
+        "5b432f3d5acfc4704b4a1dfb": 3,
+        "5ab8f39486f7745cd93a1cca": 1,
+        "6a83168651cfbe231b091a0f": 1 ///MSA gas mask (content backport)
         ///"5ab8f4ff86f77431c60d91ba": 1 ghost balaclava? Maybe if increase the chances for everything else
       },
       "Backpack": {
@@ -825,22 +850,24 @@
       "5e00c1ad86f774747333222c": {
         "helmet_top": ["6551fec55d0cf82e51014288"],
         "helmet_back": ["655200ba0ef76cf7be09d528"], 
-        "mod_equipment_000": ["5e00cfa786f77469dc6e5685", "5e01f31d86f77465cf261343", "66b5f6a28ca68c6461709ed8", "66b5f69ea7f72d197e70bcdb", "69c264c00f660b3f0d058fcf", "69c26593ea474c30ad069f8f"],
-        "mod_equipment_001": ["5e00cdd986f7747473332240", "5e01f37686f774773c6f6c15"],
+        "mod_equipment_000": ["5e00cfa786f77469dc6e5685", "5e01f31d86f77465cf261343", "66b5f6a28ca68c6461709ed8", "66b5f69ea7f72d197e70bcdb", "69c264c00f660b3f0d058fcf", "69c26593ea474c30ad069f8f","6a834d1f992762b7bf08ffd2","6a834d286cfa76129a0923b8","6a834d307bea762f500e1b59"],
+        "mod_equipment_002": ["6a8355f881430c75c10db040", "6a8355f08ce81861440b6ec1", "6a8355e36a6ba231700536f6", "6a835600c0378ed820059151"],
         "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
       },
       "5e01ef6886f77445f643baa4": {
         "helmet_top": ["6551fec55d0cf82e51014288"],
         "helmet_back": ["655200ba0ef76cf7be09d528"], 
-        "mod_equipment_000": ["5e00cfa786f77469dc6e5685", "5e01f31d86f77465cf261343", "66b5f6a28ca68c6461709ed8", "66b5f69ea7f72d197e70bcdb", "69c264c00f660b3f0d058fcf", "69c26593ea474c30ad069f8f"],
+        "mod_equipment_000": ["5e00cfa786f77469dc6e5685", "5e01f31d86f77465cf261343", "66b5f6a28ca68c6461709ed8", "66b5f69ea7f72d197e70bcdb", "69c264c00f660b3f0d058fcf", "69c26593ea474c30ad069f8f","6a834d1f992762b7bf08ffd2","6a834d286cfa76129a0923b8","6a834d307bea762f500e1b59"],
         "mod_equipment_001": ["5e00cdd986f7747473332240", "5e01f37686f774773c6f6c15"],
+        "mod_equipment_002": ["6a8355f881430c75c10db040", "6a8355f08ce81861440b6ec1", "6a8355e36a6ba231700536f6", "6a835600c0378ed820059151"],
         "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
       },
       "69c26722bf4ff19f50057643": {
         "helmet_top": ["6551fec55d0cf82e51014288"],
-        "helmet_back": ["655200ba0ef76cf7be09d528"], 
-        "mod_equipment_000": ["5e00cfa786f77469dc6e5685", "5e01f31d86f77465cf261343", "66b5f6a28ca68c6461709ed8", "66b5f69ea7f72d197e70bcdb", "69c264c00f660b3f0d058fcf", "69c26593ea474c30ad069f8f"],
+        "helmet_back": ["655200ba0ef76cf7be09d528"],
+        "mod_equipment_000": ["5e00cfa786f77469dc6e5685", "5e01f31d86f77465cf261343", "66b5f6a28ca68c6461709ed8", "66b5f69ea7f72d197e70bcdb", "69c264c00f660b3f0d058fcf", "69c26593ea474c30ad069f8f","6a834d1f992762b7bf08ffd2","6a834d286cfa76129a0923b8","6a834d307bea762f500e1b59"],
         "mod_equipment_001": ["5e00cdd986f7747473332240", "5e01f37686f774773c6f6c15"],
+        "mod_equipment_002": ["6a8355f881430c75c10db040", "6a8355f08ce81861440b6ec1", "6a8355e36a6ba231700536f6", "6a835600c0378ed820059151"],
         "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
       },
       "5ea17ca01412a1425304d1c0": {
@@ -853,14 +880,21 @@
       },
       "65709d2d21b9f815e208ff95": {
         "Helmet_top": ["657f9eb7e9433140ad0baf86"],
-        "Helmet_back": ["6ace31a35637ee1684e0961b"],
+        "Helmet_back": ["657f9ef6c6679fefb3051e1f"],
         "mod_equipment_000": ["6570a88c8f221f3b210353b7", "68a9bf7d9f4c45817b0d83b6"],
-        "mod_nvg": ["5a16b8a9fcdbcb00165aa6ca", "5c0558060db834001b735271"]
+        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
+      },
+      "6a83392e992762b7bf08ffb8": { //neosteel
+        "Helmet_top": ["657f9eb7e9433140ad0baf86"],
+        "Helmet_back": ["657f9ef6c6679fefb3051e1f"],
+        "mod_equipment_000": ["6570a88c8f221f3b210353b7", "68a9bf7d9f4c45817b0d83b6"],
+        "mod_equipment_001": ["6a8338846a6ba231700536db"],
+        "mod_equipment_002": ["6a8338c851cfbe231b091a1b"],
+        "mod_nvg": ["689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
       },
       "69cd423343c6b278a2076cca": {
         "Helmet_top": ["657f9897f4c82973640b235e"],
-        "Helmet_back": ["657f98fbada5fadd1f07a585"], 
-        "mod_equipment_000": ["5a16b7e1fcdbcb00165aa6c9", "5a16b672fcdbcb001912fa83"],
+        "Helmet_back": ["657f98fbada5fadd1f07a585"],
         "mod_equipment_001": ["5c1793902e221602b21d3de2", "5c178a942e22164bef5ceca3", "69caa20ff3190e7dfe0c197f", "69caa229512d14715e0fccdf", "69cbd3188eeaa243ed09710e", "69cbd32a05c5beb41b0781b3", "69cbd33bc293038df7002951", "69cbd346d0e5ec2c8a0429c2", "69cbd36d8eeaa243ed097112"],
         "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
       },
@@ -961,25 +995,66 @@
       "5f60b34a41e30a4ab12a6947": {
         "Helmet_top": ["657bbad7a1c61ee0c3036323"],
         "Helmet_back": ["657bbb31b30eca9763051183"], 
-        "mod_equipment_000": ["5f60c076f2bcbb675b00dac2", "68a9b6c8d3a061d8b6058346"],
-        "mod_equipment_002": ["5f60b85bbdb8e27dee3dc985", "68a9b601863d2a71fa0494ae"],
-        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
+        "mod_equipment_000": ["5f60c076f2bcbb675b00dac2", "68a9b6c8d3a061d8b6058346","693be056fd3a5c751e00de04"],
+        "mod_equipment_002": ["5f60b85bbdb8e27dee3dc985", "68a9b601863d2a71fa0494ae", "693be0ee50fafa102607aebd"],
+        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca","5f60bf4558eff926626a60f2"]
       },
       "68a9b3ca0a9c4f9398032c46": {
         "Helmet_top": ["657bbad7a1c61ee0c3036323"],
         "Helmet_back": ["657bbb31b30eca9763051183"], 
-        "mod_equipment_000": ["5f60c076f2bcbb675b00dac2", "68a9b6c8d3a061d8b6058346"],
-        "mod_equipment_002": ["5f60b85bbdb8e27dee3dc985", "68a9b601863d2a71fa0494ae"],
-        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
+        "mod_equipment_000": ["5f60c076f2bcbb675b00dac2", "68a9b6c8d3a061d8b6058346","693be056fd3a5c751e00de04"],
+        "mod_equipment_002": ["5f60b85bbdb8e27dee3dc985", "68a9b601863d2a71fa0494ae", "693be0ee50fafa102607aebd"],
+        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca","5f60bf4558eff926626a60f2"]
+      },
+      "693be003582cc8870b090b41": {
+        "Helmet_top": ["657bbad7a1c61ee0c3036323"],
+        "Helmet_back": ["657bbb31b30eca9763051183"], 
+        "mod_equipment_000": ["5f60c076f2bcbb675b00dac2", "68a9b6c8d3a061d8b6058346","693be056fd3a5c751e00de04"],
+        "mod_equipment_002": ["5f60b85bbdb8e27dee3dc985", "68a9b601863d2a71fa0494ae", "693be0ee50fafa102607aebd"],
+        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca","5f60bf4558eff926626a60f2"]
       },
       "5b4329f05acfc47a86086aa1": {
         "Helmet_top": ["65711b07a330b8c9060f7b01"],
         "Helmet_back": ["65711b489eb8c145180dbb9d"],
         "Helmet_ears": ["65711b706d197c216005b31c"],
-        "Helmet_jaw": ["65711bc79eb8c145180dbba1"],
-        "Helmet_eyes": ["65711b9b65daf6aa960c9b1b"],
-        "mod_equipment_000": ["5f60c076f2bcbb675b00dac2", "68a9b6c8d3a061d8b6058346"],
-        "mod_equipment_002": ["5f60b85bbdb8e27dee3dc985", "68a9b601863d2a71fa0494ae"],
+        "helmet_jaw": ["65711bc79eb8c145180dbba1"],
+        "helmet_eyes": ["65711b9b65daf6aa960c9b1b"],
+        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
+      },
+      "6a84624507f6c3032e00c65d": {
+        "Helmet_top": ["66bdc2ea8cbd597c9c2f9360"],
+        "Helmet_back": ["66bdc2e25f17154509115d1e"],
+        "Helmet_ears": ["66bdc2c90b603c26902b2018"],
+        "helmet_jaw": ["66bdc2d9408f1e66eb4fd957"],
+        "helmet_eyes": ["66bdc2d051aa8c345646d03f"],
+        "mod_equipment_000": ["6a8433fa2309518e9e03a2ae", "6a845e60d68fc921f9023983", "6a845e2dd68fc921f902397e"],
+        "mod_equipment_001": ["6a845dce7d4cbd3ee50a191b", "6a845e00eaa1d4d30d038f71", "6a8433f15917e01c560716fc"]
+      },
+      "66bdc28a0b603c26902b2011": {
+        "Helmet_top": ["65711b07a330b8c9060f7b01"],
+        "Helmet_back": ["65711b489eb8c145180dbb9d"],
+        "Helmet_ears": ["65711b706d197c216005b31c"],
+        "helmet_jaw": ["65711bc79eb8c145180dbba1"],
+        "helmet_eyes": ["65711b9b65daf6aa960c9b1b"],
+        "mod_equipment_000": ["6a8433fa2309518e9e03a2ae", "6a845e60d68fc921f9023983", "6a845e2dd68fc921f902397e"],
+        "mod_equipment_001": ["6a845dce7d4cbd3ee50a191b", "6a845e00eaa1d4d30d038f71", "6a8433f15917e01c560716fc"]
+      },
+      "6a84620eb9a884488e00094c": {
+        "Helmet_top": ["65711b07a330b8c9060f7b01"],
+        "Helmet_back": ["65711b489eb8c145180dbb9d"],
+        "Helmet_ears": ["65711b706d197c216005b31c"],
+        "helmet_jaw": ["65711bc79eb8c145180dbba1"],
+        "helmet_eyes": ["65711b9b65daf6aa960c9b1b"],
+        "mod_equipment_000": ["6a8433fa2309518e9e03a2ae", "6a845e60d68fc921f9023983", "6a845e2dd68fc921f902397e"],
+        "mod_equipment_001": ["6a845dce7d4cbd3ee50a191b", "6a845e00eaa1d4d30d038f71", "6a8433f15917e01c560716fc"]
+      },
+      "6a845dce7d4cbd3ee50a191b": { ///Ronin crown plates
+        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
+      },
+      "6a845e00eaa1d4d30d038f71": {
+        "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
+      },
+      "6a8433f15917e01c560716fc": {
         "mod_nvg": ["5c0558060db834001b735271", "689b8883b49f27df1c0873f8", "689dbded6c7e684817080c29", "5a16b8a9fcdbcb00165aa6ca"]
       },
       "5ba26383d4351e00334c93d9": {
